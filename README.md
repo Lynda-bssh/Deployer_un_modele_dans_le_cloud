@@ -10,7 +10,7 @@
 
 * De plus, le développement de l’application mobile permettra de construire une première version de l'architecture Big Data nécessaire.
 
-## lES Données:
+## Données:
 
 * Traitement de jeu de données de fruit-360 de kaggle.
 
@@ -18,7 +18,6 @@
 Réaliser une chaine de traitement spark et mettre en place les premières briques de traitement qui serviront lorsq'il faudra passer à l'échelle en termes de volumes de données !
 
 ## Contraintes:
-
 
 * Vous devrez tenir compte dans vos développements du fait que le volume de données va augmenter très rapidement après la livraison de ce projet. 
 * Vous continuerez donc à développer des scripts en Pyspark et à utiliser le cloud AWS pour profiter d’une architecture Big Data (EMR, S3, IAM). Si vous préférez, vous pourrez transférer les traitements dans un environnement Databricks
@@ -28,4 +27,9 @@ Réaliser une chaine de traitement spark et mettre en place les premières briqu
 - Vous respecterez les contraintes du RGPD : dans notre contexte, vous veillerez à paramétrer votre installation afin d’utiliser des serveurs situés sur le territoire européen 
 - Votre retour critique de cette solution sera également précieuse, avant de décider de la généraliser
 - La mise en œuvre d’une architecture Big Data de type EMR engendrera des coûts. Vous veillerez donc à ne maintenir l’instance EMR opérationnelle que pour les tests et les démos.
+  
+## Compétences évaluées:
 
+- Utiliser les outils du cloud pour manipuler des données dans un environnement Big Data
+- Identifier les outils du cloud permettant de mettre en place un environnement Big Data
+- Paralléliser des opérations de calcul avec Pyspark
